@@ -1,0 +1,53 @@
+html,
+body{
+    margin: 0;
+}
+
+body {
+    padding-top: 20px;
+    box-sizing:border-box;
+    height: 100vh;
+    /* uigradients.com */
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    font-family: Oxygen, sans-serif;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid #AA0000;
+    cursor: pointer;
+}
+
+@keyframes jump{
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.colorful{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.animated .icon{
+    display:inline-block;
+    animation-name: jump;
+    animation-duration: 0.5s;
+}
+
+.activity{
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+}
+
