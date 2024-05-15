@@ -1,3 +1,12 @@
+# Bore-bot
+## Details
+It's a website with a button, if you press it, it shows you a random activity to do when you are bored.
+The website was made to practice the use of Fetch and the interactions with APIs, the general topic of Module 8.
+### Things learned
+  - **fetch()** use with **.then()**
+  - **response.json()** to transform the JSON info to manageable data
+## Preview
+![bore-bot](https://github.com/AlexMakowiecki/bore-bot/assets/122258496/5de8a1ca-246b-4c5b-a0f3-2bd65303f2f2)
 
 ## About Scrimba
 
